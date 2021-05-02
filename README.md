@@ -9,9 +9,7 @@ def load_steady_dataset(file_name):<br/>
 &nbsp;&nbsp;&nbsp;ori_data[:, 1:] *= 0<br/>
 <br/>
 &nbsp;&nbsp;&nbsp;return gyro_data, acc_data, pos_data, ori_data<br/>
-<br/><br/>
 ## File Seperation:
-<br/>
 for file_number in [1, 2, 5, 6, 7, 8, 11, 12, 13, 14, 15, 17, 18, 19, 22, 23, 24, 25, 26, 27, 28]:<br/>
 &nbsp;&nbsp;&nbsp;imu_steady_filenames_train.append(dataset_address + 'steady/' + str(file_number) + '.csv')<br/>
 <br/>
